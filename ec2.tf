@@ -4,5 +4,5 @@ resource "aws_redshift_cluster" "default" {
   master_username    = "awsuser"
   master_password    = "12345Welcome"
   node_type          = "dc2.large"
-  cluster_type       = "single-node"
+  cluster_type       = "Double-node"
 }
